@@ -3,10 +3,10 @@ const baseURL = "https://demaj.dev";
 
 const routes = {
   "/": true,
-  "/about": false,
-  "/work": false,
-  "/blog": false,
-  "/gallery": false,
+  "/about": true,
+  "/work": true,
+  "/blog": true,
+  "/gallery": true,
 };
 
 // Enable password protection on selected routes
