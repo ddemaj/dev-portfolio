@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Software Engineer",
+  role: "Software Developer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
   location: "America/Toronto", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -63,8 +63,8 @@ const home = {
   },
   subline: (
     <>
-      I'm Dervish, a software developer at Frontier Dental, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Dervish, a software developer, focused on crafting intuitive
+      <br /> user experiences and building impactful projects.
     </>
   ),
 };
@@ -90,9 +90,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Electronic engineering graduate and self-taught software developer with a diverse skill set, passionate about solving complex problems and deliver impactful products to real world applications.
       </>
     ),
   },
@@ -101,17 +99,15 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Frontier Dental",
+        timeframe: "01/2025 - Present",
+        role: "Full Stack Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Delivering a top-tier user experience with attention to detail, continuous improvement, and a deep evaluation of customer needs.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Focused on building more than just high-quality websites with good aesthetics but on creating powerful platforms, enjoyable journeys and valuable tools that builds trust and drives success.
           </>,
         ],
         images: [
@@ -124,26 +120,10 @@ const about = {
           },
         ],
       },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
